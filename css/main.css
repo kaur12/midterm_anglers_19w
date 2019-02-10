@@ -500,8 +500,7 @@ ul
 
 #ContactInfo
 {
-	
-	float: left;
+	margin-left: auto;
     font-family: 'Didact Gothic', sans-serif;
 }
 
@@ -523,14 +522,26 @@ ul
 
 #contactdetails
 {
-
-	float: left;
 	margin-top: 20px;
-	width: 50%;
-	border-right: 1px solid;
-	padding-right: 10px;
-
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: -90px;
 }
+
+#contactdetails p
+{
+	width: 50%;
+	margin-left: 20px;
+	padding-right: 10px;
+	border-right: 1px solid #ddd;
+}
+
+#googleMap
+{
+	margin-top: -50px;
+	width: 50%;
+} 
 
 .bold
 {
