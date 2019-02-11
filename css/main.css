@@ -142,7 +142,15 @@ ul
 	font-weight: bold;
 	text-shadow: 2px 4px grey;
 }
+/*#moveText
+{
+	animation: 3s ease-in 1s 2 reverse both paused slidein;
+}
 
+@keyframes slidein {
+  from { margin-left: 0px; }
+  to   { margin-left: 100px; }
+}*/
 #promoImage
 {
 	width:840px;
@@ -532,15 +540,16 @@ ul
 #contactdetails p
 {
 	width: 50%;
-	margin-left: 20px;
+	margin-left: 50px;
 	padding-right: 10px;
 	border-right: 1px solid #ddd;
 }
 
 #googleMap
 {
-	margin-top: -50px;
+	margin-top: -100px;
 	width: 50%;
+	margin-left: 50px; 
 } 
 
 .bold
@@ -605,4 +614,115 @@ iframe
 	margin-top: 60px;
 	width: 60%;
 
+}
+
+
+/*projects*/
+
+#proHeading
+{
+	width: 100%;
+	margin-top: 10px;
+}
+
+#proHeading h2
+{
+	margin-bottom: 20px;
+	text-align: center;
+	text-decoration: bold;
+    font-size: 35px;
+    color: #000;
+}
+
+.ParaHeading
+{
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+#Projects
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+#Project1 h3
+{
+	font-size: 26px;
+	font-family: 'Didact Gothic', sans-serif;
+}
+
+#Project1 p
+{
+	width: 300px;
+	text-align: left;
+}
+
+#Project2 h3
+{
+	font-size: 26px;
+	font-family: 'Didact Gothic', sans-serif;
+}
+
+#Project2 p
+{
+	width: 300px;
+	text-align: left;
+}
+
+#ProjectArc
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: -50px;
+	margin-top: 40px;
+	margin-left: 20px;
+}
+
+#ArcHeading
+{
+	font-size: 26px;
+	font-family: 'Didact Gothic', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	display: block;
+	margin-top: 20px;
+	background-color: #eee;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+.archivesPro
+{
+	display: flex;
+	flex-direction: row;
+	margin-right: 30px;
+	margin-left: auto;
+}
+
+.button
+{
+	background-color: #B9DFFF;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 20px;
+	height: 30px;
+	width: 200px;
+	font: 15px 'Didact Gothic', sans-serif;
+	text-shadow: none;
+	margin-top: 100px;
+}
+
+.button:hover
+{
+	background-color: #016ABC;
+	color:#fff;
+	border: 1px solid #eee;
+	border-radius: 20px;
+	text-shadow: none;
 }
