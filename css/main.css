@@ -719,6 +719,59 @@ iframe
 
 }
 
+#Event3 h2
+{
+	margin-top: 30px;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+
+#Image1
+{
+	display: flex;
+	flex: row;
+	justify-content: space-between;
+}
+
+#Event3 img
+{
+	margin-top: 60px;
+
+}
+
+#Event3 p
+{
+	margin-top: 60px;
+	width: 60%;
+
+}
+.ReadMore
+{
+	background: #9dd53a;
+	/*color: #fff;*/
+	border: 1px solid #eee;
+	border-radius: 30px;
+	height: 100px;
+	width: 200px;
+	font: 15px'Didact Gothic';
+	margin-left: 500px;
+	margin-top: 50px;
+
+}
+.ReadMore:hover
+{
+	font-size: 40px;
+	font-style: bold;
+	background-color: #fff600;
+	color: #333;
+	border-radius: 10px;
+}
+
+
+
 
 /*projects*/
 
@@ -853,3 +906,53 @@ iframe
 	border-radius: 20px;
 	text-shadow: none;
 }
+
+/*Newsletter*/
+
+#heading
+{
+	margin-left: 100px;
+
+}
+
+.firstheading 
+{
+	font-family: 'Didact Gothic', sans-serif;
+     text-align: center;
+     font-size: 50px;
+     font-style: bold;
+}
+
+.secondText 
+{
+	font-family: 'Didact Gothic', sans-serif;
+     text-align: center;
+     font-size: 30px;
+     font-style: bold;
+     margin-top: 20px;
+     margin-bottom: 20px;
+}
+
+#links
+{
+	font-family: 'Didact Gothic', sans-serif;
+	text-align: center;
+
+
+}
+#links h2
+{
+	font-size: 40px;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+#links a
+{
+	font-size: 30px;
+	margin-top: 20px;
+}
+
+
+
+
